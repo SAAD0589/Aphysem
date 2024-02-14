@@ -1,0 +1,261 @@
+.Contact_Form >.col-6 >p>span>input{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FAFAFA;
+}
+.Contact_Form >.col-12 >p>span>select{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FAFAFA;
+}
+.Contact_Form >.col-12 >p>span>input{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FAFAFA;
+}
+.Contact_Form >.col-12 >p>span>textarea{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FAFAFA;
+    height:100px
+}
+.Contact{
+    background: #FFF;
+    height: 620px;
+    border-radius: 0 20px 20px 0;
+
+}
+.contentcontact{
+    border-radius: 20px;
+    background: #FFF;
+    /* drom */
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 620px;
+
+}
+.mainphotocontact{
+    /* width: 550px; */
+    height: 620px;
+}
+.titleContact{
+    position: relative;
+    color: #000;
+    text-align: center;
+    /* H2 */
+    font-family: Tahoma;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    z-index: 1;
+
+}
+.LoremContact{
+    color: #000;
+    text-align: center;
+    /* small tag */
+    font-family: Aclonica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 191.667% */
+}
+
+.paragraphContact {
+    max-width: 300px;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.70);
+    margin: 0 auto; /* Center the container horizontally */
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    display: block; /* Ensures the text is centered within the container */
+}
+.form-control:focus{
+    border-radius: 5px;
+    box-shadow:none !important;
+    border: 2px solid var(--Green-1, #009640) !important;
+
+    background: #FCFFF7 !important;
+}
+.btn_Contact {
+    border-radius: 5px;
+    background: #01853E;
+    color: #FFF;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 100%;
+    border: none;
+    padding: 8px;
+}
+.link_Contact{
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    color: #000;
+    border-bottom: 1px solid black;
+}
+.text_span_Contact{
+    color: #9E9E9E;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+.btn_Contact:hover {
+    background: #6ABE51;
+    transition: 0.5s;
+
+}
+.card_in_Contact{
+    position: absolute;
+    border-radius: 17px;
+    background: var(--Green-3, #C9DC90);
+    width: 50px;
+    height: 34px;
+    right: 35% !important;
+    transform: translateY(-90%);
+    z-index: -1;
+}
+
+
+#morocco svg {
+    height: 80vh;
+}
+.Nosactualites_Cards{
+    margin: auto;
+}
+.voir_plus{
+    overflow: hidden;
+    color: #B2D27F;
+    text-overflow: ellipsis;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.6px; /* 140% */
+}
+.title_And_Icon{
+    position: relative;
+    width:fit-content;
+    color: var(--black, #000);
+    /* H2 */
+    font-family: Tahoma;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44.8px; /* 140% */
+    letter-spacing: 0.96px;
+}
+.title_And_Icon::before{
+    content:'';
+    transform: translateY(15%);
+    z-index: -1;
+    right: -10% !important;
+    position: absolute;
+    border-radius: 17px;
+    background: var(--Green-3, #C9DC90);
+    width: 64px;
+    height: 34px;
+}
+
+
+.title_catalogues{
+    position: relative;
+    width:fit-content;
+    /* H2 */
+    z-index: 1;
+    font-family: Tahoma;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44.8px; /* 140% */
+    letter-spacing: 0.96px;
+}
+.title_catalogues::before{
+    content:'';
+    transform: translateY(20%);
+    z-index: -1;
+    right: -10% !important;
+    position: absolute;
+    border-radius: 17px;
+    background: var(--Green-3, #0A7F5B);
+    width: 64px;
+    height: 34px;
+}
+.cards_nos_Catalogues{
+    height: 213px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position:right;
+    background-color: #fff;
+    z-index: -1;
+}
+.link_catalogues {
+    color: #005847;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    z-index: 1;
+}
+.img_telecharger {
+    z-index: 1;
+}
+
+/* Center the next and previous buttons */
+.Next_in_Small,
+.Prev_in_Small {
+    position: absolute;
+    top: 80px;
+    transform: translateY(-50%);
+}
+
+.Next_in_Small {
+    right: 0;
+}
+
+.Prev_in_Small {
+    left: 0;
+}
+/* À propos de nous */
+.js-swiper-slides-per-view3 {
+    /* overflow: visible !important; or overflow-y: visible; */
+    position: relative;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    /* Make sure the position is set to relative */
+}
+
+.title_NotreHistoire{
+    color: var(--main, #006345);
+    /* H2 */
+    font-family: Tahoma;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44.8px; /* 140% */
+    letter-spacing: 0.96px;
+}
+.annee_NotreHistoire {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 25%;
+    border-radius: 5px 5px 5px 0px;
+    background: var(--main, #006345);
+    color: #FFF;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.swiper-slideNotreHistoire{
+    height: 172px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+}
